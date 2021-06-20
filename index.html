@@ -1,225 +1,692 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
-   <title>Document</title>
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
-   <link rel="stylesheet" href="style.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   </head>
-   <body>
- <!-- header begin-->
- <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <img src="logo.png" height="100" width="100">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">about</a>
-          </li>
-          <li class="nav-item">
-            <a  class="nav-link" href="#achieve">acheivements</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle edits" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              courses
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="courses.html">Find course</a>
-              <a class="dropdown-item" href="team.html">Team</a>
-              
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <title>Varsity | Home</title>
+
+    <!-- Favicon -->
+    <!-- <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon"> -->
+
+    <!-- Font awesome -->
+    <link href="assets/css/font-awesome.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">   
+    <!-- Slick slider -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css">          
+    <!-- Fancybox slider -->
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.css" type="text/css" media="screen" /> 
+    <!-- Theme color -->
+    <link id="switcher" href="assets/css/theme-color/default-theme.css" rel="stylesheet">          
+
+    <!-- Main style sheet -->
+    <link href="assets/css/style.css" rel="stylesheet">    
+
+   
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,300,300italic,500,700' rel='stylesheet' type='text/css'>
+    
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+  <body> 
+
+  <!--START SCROLL TOP BUTTON -->
+    <a class="scrollToTop" href="#">
+      <i class="fa fa-angle-up"></i>      
+    </a>
+  <!-- END SCROLL TOP BUTTON -->
+
+  <!-- Start header  -->
+  <header id="mu-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+          <div class="mu-header-area">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                <div class="mu-header-top-left">
+                  <div class="mu-top-email">
+                    <i class="fa fa-envelope"></i>
+                    <span>info@learingsolutions.io</span>
+                  </div>
+                  <div class="mu-top-phone">
+                    <i class="fa fa-phone"></i>
+                    <span>97837**716</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                <div class="mu-header-top-right">
+                  <nav>
+                    <ul class="mu-top-social-nav">
+                      <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                      <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                      <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
+                      <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
+                      <li><a href="#"><span class="fa fa-youtube"></span></a></li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
             </div>
-          </li>
-          <li class="nav-item">
-            <a  class="nav-link" href="#">contact us</a>
-          </li>
-        </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- End header  -->
+  <!-- Start menu -->
+  <section id="mu-menu">
+    <nav class="navbar navbar-default" role="navigation">  
+      <div class="container">
+        <div class="navbar-header">
+          <!-- FOR MOBILE VIEW COLLAPSED BUTTON -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- LOGO --> <img src="log.png" alt="" height="120" width="120">            
+          <!-- TEXT BASED LOGO -->
+          <!-- <a class="navbar-brand" href="index.html"><i class="fa fa-university"></i><span>Varsity</span></a> -->
+          <!-- IMG BASED LOGO  -->
+          <!-- <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" alt="logo"></a> -->
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul id="top-menu" class="nav navbar-nav navbar-right main-nav">
+            <li class="active"><a href="index.html">Home</a></li>            
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Courses <span class="fa fa-angle-down"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="course.html">Find courses</a></li>                
+                <li><a href="course-detail.html">Course Details</a></li>                
+              </ul>
+            </li>   
+            <li><a href="#mu-about-us">About</a></li>           
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Achievements</a></li>        
+            <li><a href="contact.html">Contact us</a></li>
+                          
+           
+          </ul>                     
+        </div><!--/.nav-collapse -->        
+      </div>     
+    </nav>
+  </section>
+  <!-- End menu -->
+  <!-- Start search box -->
+ 
+  <!-- End search box -->
+  <!-- Start Slider -->
+  <section id="mu-slider">
+    <!-- Start single slider item -->
+    <div class="mu-slider-single">
+      <div class="mu-slider-img">
+        <figure>
+          <img src="https://wallpaperaccess.com/full/5650399.jpg" alt="img">
+        </figure>
+      </div>
+      <div class="mu-slider-content">
+        <h4>Welcome To Learning Solutions</h4>
+        <span></span>
+        <h2>We Will Help You To Learn</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor amet error eius reiciendis eum sint unde eveniet deserunt est debitis corporis temporibus recusandae accusamus.</p>
         
       </div>
     </div>
-  </nav> -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-    <img src="logo.png" height="100" width="100">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#about">about</a>
-        </li>
-        <li class="nav-item">
-          <a  class="nav-link" href="#achieve">acheivements</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle edits" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            courses
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="courses.html">Find course</a>
-            <a class="dropdown-item" href="team.html">Team</a>
-            
+    <!-- Start single slider item -->
+    <!-- Start single slider item -->
+    <div class="mu-slider-single">
+      <div class="mu-slider-img">
+        <figure>
+          <img src="https://www.bluepixel.com.au/wp-content/uploads/2018/03/Blue-Pixel-Call-To-Action-Banner-Background.jpg" alt="img">
+        </figure>
+      </div>
+      <div class="mu-slider-content">
+        <h4>Welcome To Learning Solutions</h4>
+        <span></span>
+        <h2>Best Education Ever</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor amet error eius reiciendis eum sint unde eveniet deserunt est debitis corporis temporibus recusandae accusamus.</p>
+        
+      </div>
+    </div>
+    <!-- Start single slider item -->
+    <!-- Start single slider item -->
+    <div class="mu-slider-single">
+      <div class="mu-slider-img">
+        <figure>
+          <img src="https://lh3.googleusercontent.com/proxy/o_WUVRaV4ey1KEJQPN3dr3jFbF1UROGNhakGpEC1Q7_ZEuZgpY04PQ1oJY54Kjh4Eq1Ss5_qkj750Nw9zHsf3YWNixpo5YPPes0FXOYQD3Vytg0CKNwgwK2sC0Qi0O8jpi2OFgKEBcmnFy_NKluwgWgi3BzEc_ehuAnF6wnEKjdhqC51NS5EImg" alt="img">
+        </figure>
+      </div>
+      <div class="mu-slider-content">
+        <h4>Exclusivly For Education</h4>
+        <span></span>
+        <h2>Education For Everyone</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor amet error eius reiciendis eum sint unde eveniet deserunt est debitis corporis temporibus recusandae accusamus.</p>
+       
+      </div>
+    </div>
+    <!-- Start single slider item -->    
+  </section>
+  <!-- End Slider -->
+  <!-- Start service  -->
+  <section id="mu-service">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+          <div class="mu-service-area">
+            <!-- Start single service -->
+            <div class="mu-service-single">
+              <span class="fa fa-book"></span>
+              <h3>Learn Online</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima officiis, deleniti dolorem exercitationem praesentium, est!</p>
+            </div>
+            <!-- Start single service -->
+            <!-- Start single service -->
+            <div class="mu-service-single">
+              <span class="fa fa-users"></span>
+              <h3>Expert Teachers</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima officiis, deleniti dolorem exercitationem praesentium, est!</p>
+            </div>
+            <!-- Start single service -->
+            <!-- Start single service -->
+            <div class="mu-service-single">
+              <span class="fa fa-table"></span>
+              <h3>Best Classrooms</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima officiis, deleniti dolorem exercitationem praesentium, est!</p>
+            </div>
+            <!-- Start single service -->
           </div>
-        </li>
-        <li class="nav-item">
-          <a  class="nav-link" href="#">contact us</a>
-        </li>
-      </ul>
+        </div>
       </div>
     </div>
-  </div>
-</nav> 
- <!-- header end -->
- <div id="im">
-     <img src="logoff.png" height="200">
- </div>
- <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="https://wallpaperaccess.com/full/178789.jpg" class="d-block w-100" alt="..." height="600">
-      </div>
-      <div class="carousel-item">
-        <img src="https://wallpaperaccess.com/full/178809.jpg"  class="d-block w-100" alt="..." height="600">
-      </div>
-      <div class="carousel-item">
-        <img src="https://wallpaperaccess.com/full/178836.jpg"  class="d-block w-100" alt="..." height="600">
-      </div>
-    </div>
-    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
-  <div id="about" class="back2">
-    <h1 class="colo">about us</h1>
-    Welcome to [store name], your number one source for all things [product, ie: shoes, bags, dog treats]. We're dedicated to giving you the very best of [product], with a focus on [three characteristics, ie: dependability, customer service and uniqueness.]
-Founded in [year] by [founder's name], [store name] has come a long way from its beginnings in a [starting location, ie: home office, toolshed, Houston, TX.]. When [store founder] first started out, his/her passion for [passion of founder, ie: helping other parents be more eco-friendly, providing the best equipment for his fellow musicians] drove him to [action, ie: do intense research, quit her day job], and gave him the impetus to turn hard work and inspiration into to a booming online store. We now serve customers all over [place, ie: the US, the world, the Austin area], and are thrilled to be a part of the [adjective, ie: quirky, eco-friendly, fair trade] wing of the [industry type, ie: fashion, baked goods, watches] industry.
+  </section>
+  <!-- End service  -->
 
-We hope you enjoy our products as much as we enjoy offering them to you. If you have any questions or comments, please don't hesitate to contact us.
-
-Sincerely,
-Name, [title, ie: CEO, Founder, etc.]
-  </div>
-  <div class="be">
-    <h1 class="colo">courses</h1>
-    <div class="row">
-    <div class="col-lg-6">
-      <h2 id="hed">our courses </h2>
-    <div class="row hel">
-      <div class="col-lg-3">
-    <div class="gallery">
-      <a  href="c1.html">
-        <img src="https://wallpaperaccess.com/full/178811.jpg" alt="Cinque Terre" width="200" height="200" class="responsive">
-      </a>
-      <div class="desc"><h5>plus two</h5></div>
-    </div>
+  <!-- Start about us -->
+  <section id="mu-about-us">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-about-us-area">           
+            <div class="row">
+              <div class="col-lg-6 col-md-6">
+                <div class="mu-about-us-left">
+                  <!-- Start Title -->
+                  <div class="mu-title">
+                    <h2>About Us</h2>              
+                  </div>
+                  <!-- End Title -->
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum pariatur fuga eveniet soluta aspernatur rem, nam voluptatibus voluptate voluptates sapiente, inventore. Voluptatem, maiores esse molestiae.</p>
+                  <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                    <li>Saepe a minima quod iste libero rerum dicta!</li>
+                    <li>Voluptas obcaecati, iste porro fugit soluta consequuntur. Veritatis?</li>
+                    <li>Ipsam deserunt numquam ad error rem unde, omnis.</li>
+                    <li>Repellat assumenda adipisci pariatur ipsam eos similique, explicabo.</li>
+                  </ul>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis quaerat harum facilis excepturi et? Mollitia!</p>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6">
+                <div class="mu-about-us-right">                            
+                
+                  <img src="https://i.pinimg.com/originals/b1/26/4a/b1264a3112615d706196779a42565a45.jpg" height="370px" alt="img">
+                </a>                
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="col-lg-3">
-    <div class="gallery">
-      <a  href="c1.html">
-        <img src="https://wallpaperaccess.com/full/178805.jpg" alt="Forest" width="200" height="200" class="responsive">
-      </a>
-      <div class="desc"><h5>10th class</h5></div>
     </div>
+  </section>
+  <!-- End about us -->
+
+  <!-- Start about us counter -->
+ 
+  <!-- End about us counter -->
+  <section id="mu-latest-courses">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+          <div class="mu-latest-courses-area">
+            <!-- Start Title -->
+            <div class="mu-title">
+              <h2>Latest Courses</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ipsa ea maxime mollitia, vitae voluptates, quod at, saepe reprehenderit totam aliquam architecto fugiat sunt animi!</p>
+            </div>
+            <!-- End Title -->
+            <!-- Start latest course content -->
+            <div id="mu-latest-course-slide" class="mu-latest-courses-content">
+              <div class="col-lg-4 col-md-4 col-xs-12">
+                <div class="mu-latest-course-single">
+                  <figure class="mu-latest-course-img">
+                    <a href="#"><img src="https://cdn.wallpapersafari.com/40/79/XNqHOv.jpg" height="234 px"  alt="img"></a>
+                    <figcaption class="mu-latest-course-imgcaption">
+                      <a href="#">Drawing</a>
+                      <span><i class="fa fa-clock-o"></i>90Days</span>
+                    </figcaption>
+                  </figure>
+                  <div class="mu-latest-course-single-content">
+                    <h4><a href="#">Lorem ipsum dolor sit amet.</a></h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quod nisi quisquam modi dolore, dicta obcaecati architecto quidem ullam quia.</p>
+                    <div class="mu-latest-course-single-contbottom">
+                      <a class="mu-course-details" href="#">Details</a>
+                      <span class="mu-course-price" href="#">$165.00</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-xs-12">
+                <div class="mu-latest-course-single">
+                  <figure class="mu-latest-course-img">
+                    <a href="#"><img src="https://images.unsplash.com/photo-1571348264903-c3af9582e4ba?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGhvdG9zaG9wfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" height="234 px" alt="img"></a>
+                    <figcaption class="mu-latest-course-imgcaption">
+                      <a href="#">Engineering </a>
+                      <span><i class="fa fa-clock-o"></i>75Days</span>
+                    </figcaption>
+                  </figure>
+                  <div class="mu-latest-course-single-content">
+                    <h4><a href="#">Lorem ipsum dolor sit amet.</a></h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quod nisi quisquam modi dolore, dicta obcaecati architecto quidem ullam quia.</p>
+                    <div class="mu-latest-course-single-contbottom">
+                      <a class="mu-course-details" href="#">Details</a>
+                      <span class="mu-course-price" href="#">$165.00</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-xs-12">
+                <div class="mu-latest-course-single">
+                  <figure class="mu-latest-course-img">
+                    <a href="#"><img src="https://images.unsplash.com/photo-1565822197906-2bbadb61ff95?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGhvdG9zaG9wfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" height="234 px" alt="img"></a>
+                    <figcaption class="mu-latest-course-imgcaption">
+                      <a href="#">Academic</a>
+                      <span><i class="fa fa-clock-o"></i>45Days</span>
+                    </figcaption>
+                  </figure>
+                  <div class="mu-latest-course-single-content">
+                    <h4><a href="#">Lorem ipsum dolor sit amet.</a></h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quod nisi quisquam modi dolore, dicta obcaecati architecto quidem ullam quia.</p>
+                    <div class="mu-latest-course-single-contbottom">
+                      <a class="mu-course-details" href="#">Details</a>
+                      <span class="mu-course-price" href="#">$165.00</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-xs-12">
+                <div class="mu-latest-course-single">
+                  <figure class="mu-latest-course-img">
+                    <a href="#"><img src="https://images.unsplash.com/photo-1501704163333-86d3832cd4ea?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cGhvdG9zaG9wfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" height="234 px" alt="img"></a>
+                    <figcaption class="mu-latest-course-imgcaption">
+                      <a href="#">Drawing</a>
+                      <span><i class="fa fa-clock-o"></i>90Days</span>
+                    </figcaption>
+                  </figure>
+                  <div class="mu-latest-course-single-content">
+                    <h4><a href="#">Lorem ipsum dolor sit amet.</a></h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quod nisi quisquam modi dolore, dicta obcaecati architecto quidem ullam quia.</p>
+                    <div class="mu-latest-course-single-contbottom">
+                      <a class="mu-course-details" href="#">Details</a>
+                      <span class="mu-course-price" href="#">$165.00</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-xs-12">
+                <div class="mu-latest-course-single">
+                  <figure class="mu-latest-course-img">
+                    <a href="#"><img src="https://images.unsplash.com/photo-1554266183-22bbcd720a7c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8cGhvdG9zaG9wfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" height="234 px" alt="img"></a>
+                    <figcaption class="mu-latest-course-imgcaption">
+                      <a href="#">Engineering </a>
+                      <span><i class="fa fa-clock-o"></i>75Days</span>
+                    </figcaption>
+                  </figure>
+                  <div class="mu-latest-course-single-content">
+                    <h4><a href="#">Lorem ipsum dolor sit amet.</a></h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quod nisi quisquam modi dolore, dicta obcaecati architecto quidem ullam quia.</p>
+                    <div class="mu-latest-course-single-contbottom">
+                      <a class="mu-course-details" href="#">Details</a>
+                      <span class="mu-course-price" href="#">$165.00</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-xs-12">
+                <div class="mu-latest-course-single">
+                  <figure class="mu-latest-course-img">
+                    <a href="#"><img src="https://images.unsplash.com/photo-1582634424802-b4a94fcfbce6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8cGhvdG9zaG9wfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" height="234 px" alt="img"></a>
+                    <figcaption class="mu-latest-course-imgcaption">
+                      <a href="#">Academic</a>
+                      <span><i class="fa fa-clock-o"></i>45Days</span>
+                    </figcaption>
+                  </figure>
+                  <div class="mu-latest-course-single-content">
+                    <h4><a href="#">Lorem ipsum dolor sit amet.</a></h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quod nisi quisquam modi dolore, dicta obcaecati architecto quidem ullam quia.</p>
+                    <div class="mu-latest-course-single-contbottom">
+                      <a class="mu-course-details" href="#">Details</a>
+                      <span class="mu-course-price" href="#">$165.00</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End latest course content -->
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="col-lg-3">
-    <div class="gallery">
-      <a  href="c1.html">
-        <img src="https://wallpaperaccess.com/full/209899.jpg" alt="Northern Lights" width="200" height="200" class="responsive">
-      </a>
-      <div class="desc"><h5>plus one</h5></div>
+  </section>
+  <!-- Start features section -->
+  <section id="mu-features">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+          <div class="mu-features-area">
+            <!-- Start Title -->
+            <div class="mu-title">
+              <h2>Our Features</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ipsa ea maxime mollitia, vitae voluptates, quod at, saepe reprehenderit totam aliquam architecto fugiat sunt animi!</p>
+            </div>
+            <!-- End Title -->
+            <!-- Start features content -->
+            <div class="mu-features-content">
+              <div class="row">
+                <div class="col-lg-4 col-md-4  col-sm-6">
+                  <div class="mu-single-feature">
+                    <span class="fa fa-book"></span>
+                    <h4>Professional Courses</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus non dolorem excepturi libero itaque sint labore similique maxime natus eum.</p>
+                   
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                  <div class="mu-single-feature">
+                    <span class="fa fa-users"></span>
+                    <h4>Expert Teachers</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus non dolorem excepturi libero itaque sint labore similique maxime natus eum.</p>
+                   
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                  <div class="mu-single-feature">
+                    <span class="fa fa-laptop"></span>
+                    <h4>Online Learning</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus non dolorem excepturi libero itaque sint labore similique maxime natus eum.</p>
+                  
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                  <div class="mu-single-feature">
+                    <span class="fa fa-microphone"></span>
+                    <h4>Audio Lessons</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus non dolorem excepturi libero itaque sint labore similique maxime natus eum.</p>
+                    
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                  <div class="mu-single-feature">
+                    <span class="fa fa-film"></span>
+                    <h4>Video Lessons</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus non dolorem excepturi libero itaque sint labore similique maxime natus eum.</p>
+                   
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                  <div class="mu-single-feature">
+                    <span class="fa fa-certificate"></span>
+                    <h4>Professional Certificate</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus non dolorem excepturi libero itaque sint labore similique maxime natus eum.</p>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End features content -->
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-  <div class="col-lg-3">
-    <div class="gallery">
-      <a class="li" href="courses.html"><i class="fa fa-chevron-circle-right down" style="font-size:36px"></i>
-        </a>
-     
+  </section>
+  <!-- End features section -->
+
+  <!-- Start latest course section -->
+ 
+  <!-- End latest course section -->
+ <section id="mu-testimonial" style="background: url(https://i.pinimg.com/originals/62/c6/f9/62c6f9883f7929ebb56a13e4a71694af.jpg);">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-testimonial-area">
+            <div id="mu-testimonial-slide" class="mu-testimonial-content">
+              <!-- start testimonial single item -->
+              
+              <!-- end testimonial single item -->
+              <!-- start testimonial single item -->
+              <div class="mu-testimonial-item">
+                <div class="mu-testimonial-quote">
+                  <blockquote style="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem rerum soluta aperiam blanditiis obcaecati eveniet aliquam consequatur nobis eaque id.</p>
+                  </blockquote>
+                </div>
+               
+               
+              </div>
+              <!-- end testimonial single item -->
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+  </section>
+  <!-- Start our teacher -->
+  <section id="mu-our-teacher">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-our-teacher-area">
+            <!-- begain title -->
+            <div class="mu-title">
+              <h2>Our Teachers</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, repudiandae, suscipit repellat minus molestiae ea.</p>
+            </div>
+            <!-- end title -->
+            <!-- begain our teacher content -->
+            <div class="mu-our-teacher-content">
+              <div class="row">
+                <div class="col-lg-3 col-md-3  col-sm-6">
+                  <div class="mu-our-teacher-single">
+                    <figure class="mu-our-teacher-img">
+                      <img src="data:image/jpeg;base64,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" width="260 px" height="265 px" alt="teacher img">
+                      <div class="mu-our-teacher-social">
+                        <a href="#"><span class="fa fa-facebook"></span></a>
+                        <a href="#"><span class="fa fa-twitter"></span></a>
+                        <a href="#"><span class="fa fa-linkedin"></span></a>
+                        <a href="#"><span class="fa fa-google-plus"></span></a>
+                      </div>
+                    </figure>                    
+                    <div class="mu-ourteacher-single-content">
+                      <h4>Brian Dean</h4>
+                      <span>Math Teacher</span>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique quod pariatur recusandae odio dignissimos. Eligendi.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                  <div class="mu-our-teacher-single">
+                    <figure class="mu-our-teacher-img">
+                      <img src="https://images2.alphacoders.com/995/thumbbig-995155.webp"width="260 px" height="265 px"alt="teacher img">
+                      <div class="mu-our-teacher-social">
+                        <a href="#"><span class="fa fa-facebook"></span></a>
+                        <a href="#"><span class="fa fa-twitter"></span></a>
+                        <a href="#"><span class="fa fa-linkedin"></span></a>
+                        <a href="#"><span class="fa fa-google-plus"></span></a>
+                      </div>
+                    </figure>                    
+                    <div class="mu-ourteacher-single-content">
+                      <h4>James Hein</h4>
+                      <span>Physics Teacher</span>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique quod pariatur recusandae odio dignissimos. Eligendi.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                  <div class="mu-our-teacher-single">
+                    <figure class="mu-our-teacher-img">
+                      <img src="https://images6.alphacoders.com/102/thumbbig-1022349.webp" width="260 px" height="265 px"alt="teacher img">
+                      <div class="mu-our-teacher-social">
+                        <a href="#"><span class="fa fa-facebook"></span></a>
+                        <a href="#"><span class="fa fa-twitter"></span></a>
+                        <a href="#"><span class="fa fa-linkedin"></span></a>
+                        <a href="#"><span class="fa fa-google-plus"></span></a>
+                      </div>
+                    </figure>                    
+                    <div class="mu-ourteacher-single-content">
+                      <h4>Rebeca Michel</h4>
+                      <span>English Teacher</span>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique quod pariatur recusandae odio dignissimos. Eligendi.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                  <div class="mu-our-teacher-single">
+                    <figure class="mu-our-teacher-img">
+                      <img src="https://images.alphacoders.com/101/thumbbig-1014171.webp"  width="260 px" height="265 px"alt="teacher img">
+                      <div class="mu-our-teacher-social">
+                        <a href="#"><span class="fa fa-facebook"></span></a>
+                        <a href="#"><span class="fa fa-twitter"></span></a>
+                        <a href="#"><span class="fa fa-linkedin"></span></a>
+                        <a href="#"><span class="fa fa-google-plus"></span></a>
+                      </div>
+                    </figure>                    
+                    <div class="mu-ourteacher-single-content">
+                      <h4>John Doe</h4>
+                      <span>Biology Teacher</span>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique quod pariatur recusandae odio dignissimos. Eligendi.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> 
+            <!-- End our teacher content -->           
+          </div>
+        </div>
+      </div>
     </div>
-    </div>
-    </div>
+  </section>
+  <!-- End our teacher -->
+
+  <!-- Start testimonial -->
   
-    <div class="col-lg-6">
-     <h2 id="hed">our faculties </h2>
-    <div class="row">
-      <div class="col-lg-3"></div>
-      <div class="col-lg-3 hell">
-    <div id="carouselExampleControls" class="carousel slide caro" data-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="https://wallpaperaccess.com/full/209858.jpg" class="d-block w-100 responsive" height="200" >
-        </div>
-        <div class="carousel-item">
-          <img src="https://wallpaperaccess.com/full/209893.jpg"  class="d-block w-100 responsive" height="200">
-        </div>
-        <div class="carousel-item">
-          <img src="https://wallpaperaccess.com/full/209872.jpg"  class="d-block w-100 responsive" alt="..." height="200">
+  <!-- End testimonial -->
+
+  <!-- Start from blog -->
+  
+            <!-- end from blog content   -->   
+          </div>
         </div>
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
     </div>
+  </section>
+  <!-- End from blog -->
+
+  <!-- Start footer -->
+  <footer id="mu-footer">
+    <!-- start footer top -->
+    <div class="mu-footer-top">
+      <div class="container">
+        <div class="mu-footer-top-area">
+          <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-3">
+              <div class="mu-footer-widget">
+                <h4>Information</h4>
+                <ul>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="">Features</a></li>
+                  <li><a href="">Course</a></li>
+                  <li><a href="">Event</a></li>
+                  <li><a href="">Sitemap</a></li>
+                  <li><a href="">Term Of Use</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+              <div class="mu-footer-widget">
+                <h4>Student Help</h4>
+                <ul>
+                  <li><a href="">Get Started</a></li>
+                  <li><a href="#">My Questions</a></li>
+                  <li><a href="">Download Files</a></li>
+                  <li><a href="">Latest Course</a></li>
+                  <li><a href="">Academic News</a></li>                  
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+              <div class="mu-footer-widget">
+                <h4>News letter</h4>
+                <p>Get latest update, news & academic offers</p>
+                             
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+              <div class="mu-footer-widget">
+                <h4>Contact</h4>
+                <address>
+                  <p>P.O. note 320, simple, xyz 9495, abc</p>
+                  <p>Phone: 8989**5167 </p>
+                  <p>Website: www.webified.io</p>
+                  <p>Email: Webified.io</p>
+                </address>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+    <!-- end footer top -->
+    <!-- start footer bottom -->
+    <div class="mu-footer-bottom">
+      <div class="container">
+        <div class="mu-footer-bottom-area">
+          <p>&copy; All Right Reserved. Designed by <a href="http://www.markups.io/" rel="nofollow">Webified.io</a></p>
+        </div>
+      </div>
     </div>
-    </div>
-    </div>
-  </div>
-  <div id="achieve" class="back2">
-    <h1 class="colo">acheivements</h1> 
-    Welcome to [store name], your number one source for all things [product, ie: shoes, bags, dog treats]. We're dedicated to giving you the very best of [product], with a focus on [three characteristics, ie: dependability, customer service and uniqueness.]
-    Founded in [year] by [founder's name], [store name] has come a long way from its beginnings in a [starting location, ie: home office, toolshed, Houston, TX.]. When [store founder] first started out, his/her passion for [passion of founder, ie: helping other parents be more eco-friendly, providing the best equipment for his fellow musicians] drove him to [action, ie: do intense research, quit her day job], and gave him the impetus to turn hard work and inspiration into to a booming online store. We now serve customers all over [place, ie: the US, the world, the Austin area], and are thrilled to be a part of the [adjective, ie: quirky, eco-friendly, fair trade] wing of the [industry type, ie: fashion, baked goods, watches] industry.
-    
-    We hope you enjoy our products as much as we enjoy offering them to you. If you have any questions or comments, please don't hesitate to contact us.
-    
-    Sincerely,
-    Name, [title, ie: CEO, Founder, etc.]
-  </div>
-  <!-- footer -->
-  <footer>
-    <span class="row cen">
-      <span class="col-lg-2">
-    <button type="button" class="btn btn-warning"><a class="aa" href="contact.html">Contact us</a></button>
-      </span>
-    <span class="col-lg-2">
-    <button type="button" class="btn btn-warning"><a class="aa" href="gallery.html">Gallery</a></button>
-    </span>
-    </span>
-  <div id="foot">
-  <a href="#" class="fa fa-facebook"></a>
-  <a href="#" class="fa fa-twitter"></a>
-  <a href="#" class="fa fa-google"></a>
-  </div>
-  <div id="dev">
-    DEVELOPED BY WEBIFIED 
-  </div>
+    <!-- end footer bottom -->
   </footer>
+  <!-- End footer -->
+  
+  <!-- jQuery library -->
+  <script src="assets/js/jquery.min.js"></script>  
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="assets/js/bootstrap.js"></script>   
+  <!-- Slick slider -->
+  <script type="text/javascript" src="assets/js/slick.js"></script>
+  <!-- Counter -->
+  <script type="text/javascript" src="assets/js/waypoints.js"></script>
+  <script type="text/javascript" src="assets/js/jquery.counterup.js"></script>  
+  <!-- Mixit slider -->
+  <script type="text/javascript" src="assets/js/jquery.mixitup.js"></script>
+  <!-- Add fancyBox -->        
+  <script type="text/javascript" src="assets/js/jquery.fancybox.pack.js"></script>
+  
+  
+  <!-- Custom js -->
+  <script src="assets/js/custom.js"></script> 
 
-
-<!-- footer end -->
- </body>
+  </body>
 </html>
