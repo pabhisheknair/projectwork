@@ -1,0 +1,128 @@
+#im
+{
+    padding-left: 40%;
+}
+
+.cen
+{
+    margin-left: 40%;
+}
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  #foot
+  {
+      padding-left: 45%;
+  }
+  #dev
+  {
+      padding-left: 42%;
+  }
+  .colo
+  {
+      background-color: #f1b11d;
+      text-align: center;
+      color: white;
+      background: url(https://thumbs.dreamstime.com/b/planks-dark-old-wood-texture-background-170515350.jpg);
+  }
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+ .aa
+ {
+   color: black;
+ }
+.down
+{
+  padding-top: 1em;
+}
+*
+{
+  font-family:'Times New Roman', Times, serif;
+}
+.back
+{
+  background-color: #fddc8e;
+}
+.li
+{
+  color: black;
+}
+.img {
+  border-radius: 25px;
+  background: url(paper.gif);
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;  
+}
+.bod
+{
+
+  background: url(https://thumbs.dreamstime.com/b/planks-dark-old-wood-texture-background-170515350.jpg);
+  background-repeat: repeat;
+  
+}
+.ji
+{
+  margin-left: 40%;
+  margin-bottom: 20%;
+}
+.back2
+{
+  /* background:url(http://wallpoper.com/images/00/31/33/51/black-background_00313351.jpg); */
+  background:url(https://images.pexels.com/photos/2341290/pexels-photo-2341290.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+}
+.hell
+{
+  border-radius: 25px;
+  border:2px solid black;
+}
+.hel{
+  margin-left: 1em;
+}
+#hed
+{
+  margin-left: 27%;
+}
+h5{
+  text-align: center;
+  font-style:oblique;
+}
+.be
+{
+  background:url(https://images.pexels.com/photos/2341290/pexels-photo-2341290.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+}
+.re
+{
+  margin-left: 1em;
+}
+.h{
+  background:url(https://images.pexels.com/photos/2341290/pexels-photo-2341290.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+}
